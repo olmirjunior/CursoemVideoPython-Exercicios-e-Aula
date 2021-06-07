@@ -1,0 +1,15 @@
+print('')
+print('Faça um programa que leia algo digitado pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis.')
+print('')
+print('De acordo com o que foi digitado veja se é verdadeiro ou falso')
+a = input('Digite algo, qualquer coisa: ')
+print('A classe é do tipo: ', type(a))
+print('É um número: ', a.isnumeric())
+print('É uma letra: ', a.isalpha())
+print('É alfanúmerico: ', a.isalnum())
+print('Está em minusculas: ', a.islower())
+print('Está em maiusculas: ', a.isupper())
+print('É um decimal: ', a.isdecimal())
+print('Tem somente espaços: ', a.isspace())
+
+

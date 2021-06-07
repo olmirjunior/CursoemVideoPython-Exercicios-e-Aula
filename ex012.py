@@ -1,0 +1,11 @@
+print('Faça um algoritimo que leia o preço de um produto e mostre seu novo preço com 5% de desconto')
+# p = float(input('Digite o preço do produto R$: '))
+# d = float(input('Digite o percentual do desconto %: '))
+# pd = (d/100)
+# vd = p - (p*pd)
+# print('O preço final com desconto é R$: {:.2f}'.format(vd))
+# print('Seu desconto foi de R$: {:.2f}'.format(p-vd))
+
+preco = float(input('Qual o preço do produto R$ '))
+novo = preco - (preco * 5 / 100)
+print('O produto que custava R$ {:.2f}, na promoção com 5% de desconto vai custar R$ {:.2f}'.format(preco, novo))
