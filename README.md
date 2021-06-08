@@ -1,2 +1,2 @@
-# CursoemVideoPython-Exercicios-e-Aula
-**Curso de Python** em *www.cursoemvideo.com*
+# CursoemVideoPython-Exercicios-e-Aulas
+##**Curso de Python** em *www.cursoemvideo.com*
